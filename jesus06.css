@@ -1,0 +1,30 @@
+/*
+    P6 CSS Hoja de estilos
+    Jesús Delgado Ramos 
+    Noviembre 2020
+*/
+
+html{
+    background-color: #32a0a0;
+}
+
+h1{
+    font-family:fantasy;
+}
+
+.contenedor{
+    background-color: #f0da31;
+    border: 3px dotted black;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    width: 55%;
+}
+
+ol{
+    list-style: upper-roman;
+    list-style-position: inside;
+}
+
+ul{
+    list-style: solid circle;
+}

@@ -1,0 +1,33 @@
+/*
+    Galería de imágenes CSS
+    Jesús Delgado 
+    Noviembre 2020
+*/
+main{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+main>img{
+    width: 100%;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
