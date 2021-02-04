@@ -1,0 +1,167 @@
+/*Pagina de reviews de videojuegos
+VaQola et Jesdr223 // 2021 //
+*/
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4em;
+    font-weight: 800;
+    font-style: italic;
+    color: #fdbe14;
+    text-align: center;
+    padding-top:14px ;
+    padding-bottom: 10px;
+}
+/* header */
+
+header{
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+/* nav - menu */
+.nav li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: #fdbe14;
+    color: black;
+}
+
+.nav> li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    width: 20%;
+    z-index: 2;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li{
+    position: relative;
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+/*Fin Nav*/
+
+body{
+    background-image:url(img/fondo.jpg);
+}
+
+/*GENERAL*/
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+iframe{
+    padding-top: 10px;
+     display: block;
+    margin: auto;    
+}
+
+/*Fin GENERAL*/
+
+
+/*lol*/
+.lol{
+    padding: 15px;
+    margin: 25px;
+    border: 13px black solid;
+    border-radius: 10px;
+    margin-top: 95px;
+}
+.lol>img{
+    display: block;
+    margin: auto;
+}
+.lol>p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+/*Rocket League*/
+.Rocket{
+    padding: 15px;
+    margin: 25px;
+    border: 13px black solid;
+    border-radius: 10px;
+}
+.Rocket>img{
+    display: block;
+    margin: auto;
+}
+.Rocket>p{
+    font-size: 20px;
+    text-align: center;
+}
+
+/*Lista*/
+.lista{
+    width:20%;
+    margin:auto;
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgba(253, 190, 20, 0.39);
+    margin-top: 10px;
+}
+
+ol{
+    background-color: rgba(253, 190, 20, 0);
+    list-style: decimal;
+    margin-left: 60px;
+}
+
+/*Footer*/
+footer{
+    position: inherit;
+    bottom: 0px;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.redes{
+    margin-bottom: 20px;
+}
+
+.redes>img{
+    margin-left: 25px;
+}
+
+a{
+    color: white;
+}
