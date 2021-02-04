@@ -1,0 +1,149 @@
+/*Pagina de reviews de videojuegos
+VaQola et Jesdr223 // 2021 //
+*/
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4em;
+    font-weight: 800;
+    font-style: italic;
+    color: #fdbe14;
+    text-align: center;
+    padding-top:14px ;
+    padding-bottom: 10px;
+}
+/* header */
+
+header{
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+/* nav - menu */
+.nav li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: #fdbe14;
+    color: black;
+}
+
+.nav> li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    width: 20%;
+    z-index: 2;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li{
+    position: relative;
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+/*Fin Nav*/
+
+body{
+    background-image:url(img/fondo.jpg);
+}
+
+
+/*GENERAL*/
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+iframe{
+    padding-top: 10px;
+     display: block;
+    margin: auto;    
+}
+
+/*Fin GENERAL*/
+
+/*zelda*/
+.zelda{
+    padding: 15px;
+    margin: 25px;
+    border: 13px black solid;
+    border-radius: 10px;
+    margin-top: 95px;
+}
+.zelda>img{
+    display: block;
+    margin: auto;
+}
+.zelda>p{
+    font-size: 20px;
+    text-align: center;
+}
+
+/*horizon*/
+.horizon{
+    padding: 15px;
+    margin: 25px;
+    border: 13px black solid;
+    border-radius: 10px;
+}
+.horizon>img{
+    display: block;
+    margin: auto;
+}
+.horizon>p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+footer{
+    position: inherit;
+    bottom: 0px;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.redes{
+    margin-bottom: 20px;
+}
+
+.redes>img{
+    margin-left: 25px;
+}
+
+a{
+    color: white;
+}
