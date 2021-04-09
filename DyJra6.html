@@ -1,0 +1,45 @@
+<!doctype HTML>
+<html>
+	<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+	<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+
+    <!-- start the body of your page -->
+    <body style='margin : 0px; overflow: hidden;'>
+        <!-- add some info at the top of the page -->
+        <div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
+             Ejemplo de Realidad Aumentada con las librerías AFRAME.js y AR.js <a href='https://twitter.com/frMoisesfr' target='_blank'>@jesusvaqola</a>
+        </div>
+
+        <!-- Define your 3d scene and enabled ar.js -->
+        <a-scene embedded arjs='trackingMethod: best;'>
+
+            <!-- Create a anchor to attach your augmented reality -->
+            <a-anchor hit-testing-enabled='true'>
+                
+                <a-text position='-0.6 1.25 -0.5' value="mamawebo"></a-text>
+                <!-- Add your augmented reality here -->
+                <a-box position='0 0 0' scale="1" material='opacity: 0.5; side:double; color: #2c8bdd;'></a-box>
+                    <a-torus-knot src ="img/gotas-agua-sobre-fondo-azul_70287-1699.jpg" radius='0.26' radius-tubular='0.05'>
+                        <a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
+                    </a-torus-knot>
+                <a-torus position="0 0 0" color="#43A367" arc="360" radius="0.7" radius-tubular="0.07" rotation="-70 0 0">
+        <a-animation attribute="rotation" to="0 72000 0" dur="30000" easing='linear' repeat="indefinite"></a-animation>
+                </a-torus>
+               <a-torus position="0 0 0" color="#43A367" arc="360" radius="1.2" radius-tubular="0.07" rotation="-70 0 0">
+        <a-animation attribute="rotation" to="72000 0 0" dur="30000" easing='linear' repeat="indefinite"></a-animation>
+               </a-torus>
+                <a-torus position="0 0 0" color="#43A367" arc="360" radius="1.7" radius-tubular="0.07" rotation="-70 0 0">
+        <a-animation attribute="rotation" to="0 72000 0" dur="30000" easing='linear' repeat="indefinite"></a-animation>
+               </a-torus>
+               
+                
+
+            </a-anchor>
+
+            <!-- Define a static camera -->
+            <a-camera-static/>
+
+        </a-scene>
+    </body>
+
+</html>
