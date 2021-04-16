@@ -1,0 +1,38 @@
+body{
+    background-color: #f27324;
+}
+
+header{
+    padding: 20px;
+    border: solid 5px black;
+    margin: 20px 20px 50px 20px;
+    background-color: rgb(64, 222, 204);
+    border-radius: 25px;
+    color: #000000;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+a{
+    border: solid 2px black;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    display: flex;
+    background-color: #d90841;
+    text-transform:capitalize;
+    width: 50%;
+    color: #000000;
+}
+
+}
+
+footer{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    margin: 40px auto 20px auto;
+    padding: 10px;
+    text-align:inherit;
+    width: 50%;
+}
